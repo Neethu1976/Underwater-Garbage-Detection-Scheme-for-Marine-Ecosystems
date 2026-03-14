@@ -12,5 +12,10 @@ venv/
 # YOLO outputs
 runs/
 datasets/
+
+# Model files (ignore all by default)
 *.pt
 *.onnx
+
+# Allow the trained model inside models folder
+!models/best.pt
